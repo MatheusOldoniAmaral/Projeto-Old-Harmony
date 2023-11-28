@@ -6,7 +6,7 @@ export default function Modal({ isOpen, setOpenModal, isUpdate }) {
   const [nome, setNome] = useState("");
   const [quantidade, setQuantidade] = useState("");
   const [preco, setPreco] = useState("");
-  const [imagem, setImagem] = useState(null);
+  const [imagem, setImagem] = useState();
 
   useEffect(() => {
     console.log(isUpdate);
