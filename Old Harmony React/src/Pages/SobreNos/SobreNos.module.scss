@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+}
+
+.container_sobreNos {
+    section {
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        width: 100%;
+
+        img {
+            width:100%;
+        }
+
+        .textos {
+            width: 100%;
+            background: linear-gradient(90deg, #A2A2A2 47.11%, #AE996B 87.89%);
+
+
+            .texto1 {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 496px;
+                height: 496px;
+                padding-left: 100px;
+
+                h1 {
+                    color: #000000d4;
+                    font-family: Odibee Sans;
+                    font-size: 40px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    margin-bottom: 10px;
+                }
+
+                p {
+                    color: #313131f0;
+                    text-align: justify;
+                    font-family: Odibee Sans;
+                    font-size: 30px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+            }
+        }
+
+        .texto2 {
+            display: flex;
+            flex-direction: column;
+            width: 496px;
+            margin-left: 500px;
+            padding-right: 100px;
+            padding-bottom: 50px;
+
+            h1 {
+                color: #000000d4;
+                font-family: Odibee Sans;
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                margin-bottom: 10px;
+            }
+
+            p {
+                color: rgba(49, 49, 49, 0.94);
+                text-align: justify;
+                font-family: Odibee Sans;
+                font-size: 30px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        }
+    }
+}

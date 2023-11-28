@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+}
+
+.container_loginAdministrador {
+    section {
+        display: flex;
+        justify-content: center;
+        background: linear-gradient(89deg, #d1c3a8 2.24%, #6a5f52 98.79%),
+        linear-gradient(90deg, #d1c3a8 51.56%, rgba(209, 195, 168, 0) 100%);
+        height: 850px;
+
+        .loginAdm {
+            display: flex;
+            border-radius: 20px 20px 20px 20px;
+            background: #b29a6c;
+            width: 880px;
+            margin: 100px;
+            font-family: Quicksand;
+
+            .todosimg {
+                border-radius: 20px 0px 0px 20px;
+            }
+
+            .loginForm {
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                align-items: center;
+                line-height: 50px;
+                justify-content: center;
+                width: 100%;
+                height: 100%;
+
+                h1 {
+                    display: flex;
+                    justify-content: center;
+                    text-align: center;
+                    align-items: center;
+                    font-size: 40px;
+                    color: #fff;
+                    margin-bottom: 50px;
+                }
+
+                form {
+                    label {
+                        color: #000;
+                        font-family: Quicksand;
+                        font-size: 20px;
+                    }
+
+                    div {
+                        display: flex;
+                        flex-direction: column;
+                        margin-bottom: 20px;
+
+                        input {
+                            width: 380px;
+                            height: 45px;
+                            outline: 0;
+                            border: none;
+                            border-radius: 50px;
+                            text-align: center;
+
+                            &::placeholder {
+                                text-align: center;
+                                font-family: Quicksand;
+                            }
+                        }
+                    }
+
+                    a {
+                        text-decoration: none;
+                        padding-left: 120px;
+                        padding-right: 120px;
+                        padding-top: 10px;
+                        padding-bottom: 10px;
+                        border-radius: 50px;
+                        border: none;
+                        outline: 0;
+                        background: #121935;
+                        color: #fff;
+                        margin-top: 40px;
+                        border: 1px solid #121935;
+                        font-family: Quicksand;
+                        
+                        &:hover {
+                            background-color: #8e94ac00;
+                            transition: 0.3s;
+                            border: 1px solid #000;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

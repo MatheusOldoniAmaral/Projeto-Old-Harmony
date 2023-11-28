@@ -1,0 +1,117 @@
+.modalContainer {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #0000009d;
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+
+    .modal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px;
+        background-color: #ffffff;
+        border-radius: 10px;
+        width: 50%;
+        position: relative;
+        color: #000;
+
+        span {
+            font-size: 25px;
+        }
+
+        label {
+            font-size: 14px;
+            width: 100%;
+        }
+
+        input {
+            width: 100%;
+            outline: none;
+            padding: 5px 10px;
+            width: 100%;
+            margin-bottom: 20px;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+        }
+
+        .modalClose {
+            width: 1.25rem;
+            height: 1.25rem;
+            cursor: pointer;
+            background-color: transparent;
+            border: none;
+            color: #000;
+            position: absolute;
+            top: 0.75rem;
+            right: 2.40rem;
+            display: flex;
+
+            &::before &::after {
+                position: absolute;
+                width: 1.25rem;
+                height: 0.125rem;
+                background-color: currentColor;
+                border-radius: 0.125rem;
+            }
+
+            &::before {
+                transform: rotate(45deg);
+                left: 0;
+                top: calc(11.25rem / 2);
+            }
+
+            &::after {
+                transform: rotate(-45deg);
+                left: 0;
+                top: calc(11.25rem / 2);
+            }
+        }
+
+        .btnSalvar {
+            font-size: 20px;
+            width: 100%;
+            margin: 10px auto;
+            outline: none;
+            border-radius: 20px;
+            padding: 5px 10px;
+            width: 100%;
+            border: none;
+            background-color: #121935;
+            color: #ffffff;
+        }
+    }
+
+    @keyframes modal {
+        from {
+            opacity: 0;
+            transform: translate3d(0, -60px, 0);
+        }
+
+        to {
+            opacity: 1;
+            transform: translate3d(0, 0, 0);
+        }
+    }
+
+    td button {
+        border: none;
+        outline: none;
+        background: transparent;
+    }
+
+    td button i {
+        font-size: 25px;
+    }
+
+    td button i:first-child {
+        margin-right: 10px;
+    }
+}
