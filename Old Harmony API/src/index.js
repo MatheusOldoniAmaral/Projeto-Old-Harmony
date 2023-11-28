@@ -12,5 +12,5 @@ servidor.use(produtoController);
 
 servidor.use('/storage', express.static('./storage'));
 
-const port = process.env.PORT;
+const port = 5000;
 servidor.listen(port, () => console.log(`API subiu na porta ${port}`));
