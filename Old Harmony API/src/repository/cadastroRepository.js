@@ -1,4 +1,4 @@
-import { con } from "./Connection.js";
+import { con } from "./connection.js";
 
 export async function salvar(produtos) {
     const comando = `INSERT INTO produtos (nome_prod, quantidade_prod, preco_produto, img_prod) VALUES (?, ?, ?, ?)`
