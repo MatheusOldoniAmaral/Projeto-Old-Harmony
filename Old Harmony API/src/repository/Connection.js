@@ -2,7 +2,7 @@ import mysql2 from 'mysql2/promise';
 
 const con = await mysql2.createConnection({
     host: '191.234.204.68',
-    database: 'projetodw',
+    database: 'projetoDW',
     user: 'admin',
     password: '@dm!n'
 });
