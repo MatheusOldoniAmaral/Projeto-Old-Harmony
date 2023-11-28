@@ -22,7 +22,7 @@ export default function CadastroProduto() {
 
   async function handleDelete(codigoProd) {
     try {
-      await axios.delete(`http://localhost:8000/produtos/${codigoProd}`);
+      await axios.delete(`http://191.234.204.68:5000/produtos/${codigoProd}`);
       setListaProdutos(await albumService.findAll());
     } catch (error) {
       console.error('Erro ao excluir o produto', error);
@@ -63,7 +63,7 @@ export default function CadastroProduto() {
                 {listaProdutos.map(item =>
                   <tr key={item.codigo_prod}>
                     <th>{item.codigo_prod}</th>
-                    <th><img src={"http://localhost:8000/" + item.img_prod} /></th>
+                    <th><img src={"http://191.234.204.68:5000/" + item.img_prod} /></th>
                     <th>{item.nome_prod}</th>
                     <th>{item.quantidade_prod}</th>
                     <th>R$ {item.preco_produto}</th>

@@ -20,7 +20,7 @@ export default function Modal({ isOpen, setOpenModal, isUpdate }) {
         preco: preco
       };
 
-      let r = await axios.post('http://localhost:8000/produtos', body);
+      let r = await axios.post('http://191.234.204.68:5000/produtos', body);
       let codigo = r.data.codigo;
 
       if (codigo) {
@@ -28,7 +28,7 @@ export default function Modal({ isOpen, setOpenModal, isUpdate }) {
         const formData = new FormData();
         formData.append('capa', imagem);
 
-        await axios.put(`http://localhost:8000/produtos/${codigo}/capa`, formData, {
+        await axios.put(`http://191.234.204.68:5000/produtos/${codigo}/capa`, formData, {
           headers: {
             'Content-Type': 'multipart/form-data'
           }

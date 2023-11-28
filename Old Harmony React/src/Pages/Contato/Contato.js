@@ -24,7 +24,7 @@ export function Contato() {
                         <button type="submit">Enviar</button>
 
                         <input type="hidden" name="accessKey" value="405c6ef2-1c11-4dc0-a416-235a847d385b" />
-                        <input type="hidden" name="redirectTo" value="http://localhost:3000/obrigado" />
+                        <input type="hidden" name="redirectTo" value="http://191.234.204.68:3000/obrigado" />
                     </form>
                 </div>
             </section>

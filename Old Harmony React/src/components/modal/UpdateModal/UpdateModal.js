@@ -34,7 +34,7 @@ export function UpdateModal({ isOpen, setOpenModal, itemCode }) {
             };
 
             if (itemCode) {
-                await axios.put('http://localhost:8000/produtos/' + itemCode, body)
+                await axios.put('http://191.234.204.68:5000/produtos/' + itemCode, body)
 
                 const formData = new FormData();
                 formData.append('capa', imagem);
