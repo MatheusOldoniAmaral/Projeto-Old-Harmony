@@ -1,10 +1,10 @@
 import mysql2 from 'mysql2/promise';
 
 const con = await mysql2.createConnection({
-    host: process.env.HOST,
-    database: process.env.DB,
-    user: process.env.USER,
-    password: process.env.PWD
+    host: '191.234.204.68',
+    database: 'projetodw',
+    user: 'admin',
+    password: '@dm!n'
 });
 
 console.log('Conexão com BD realizada com sucesso!');
