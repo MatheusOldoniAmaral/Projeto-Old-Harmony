@@ -68,7 +68,7 @@ endpoints.delete('/produtos/:codigo', async (req, resp) => {
         let linhasAfetadas = await remover(codigo);
 
         if (linhasAfetadas == 0)
-            throw new Error('Produto não encontrado!');
+            throw new Error('Produto não encontrado!')
 
         resp.send();
     }
