@@ -6,7 +6,7 @@ export class AlbumService {
             const response = await axios.get('http://191.234.204.68:5000/produtos');
             return response.data;
         } catch (error) {
-            throw error.response.data.message;
+            throw error.response.data.message
         }
     }
 
