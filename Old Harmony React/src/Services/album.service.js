@@ -2,18 +2,12 @@ import axios from 'axios';
 
 export class AlbumService {
     async findAll() {
-        try {
             const response = await axios.get('http://191.234.204.68:5000/produtos');
-            
-            return response; 
-        } catch (error) {
-            throw error.response.data.message;
-        }
+            return response.data;
     }
 
     async update(codigo, corpo) {
         await axios.put(`http://191.234.204.68:5000/produtos/${codigo}`, corpo);
-        
     }
 
     async updateImage(codigo, formData) {
