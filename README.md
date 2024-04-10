@@ -10,5 +10,5 @@ Para o desenvolvimento deste projeto, utilizamos um conjunto de tecnologias mode
 
 O Old Harmony representa não apenas uma plataforma de comércio eletrônico, mas também um espaço dedicado à preservação e celebração da música Black das décadas de 90 e 2000, proporcionando uma experiência única aos seus usuários.
 
-Acesse o link abaixo e veja o vídeo de apresentação de Old Harmony!
+Acesse o link e veja o vídeo de apresentação de Old Harmony!
 https://youtu.be/sNZxu6t7_CE
