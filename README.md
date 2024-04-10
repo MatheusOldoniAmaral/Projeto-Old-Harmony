@@ -9,3 +9,6 @@ Além disso, implementamos uma área de login destinada aos administradores do s
 Para o desenvolvimento deste projeto, utilizamos um conjunto de tecnologias modernas e robustas, incluindo JavaScript para a lógica do cliente, ReactJS para a construção da interface do usuário, NodeJS para o lado do servidor, MySQL para o banco de dados, e CSS/SASS para a estilização e design do site.
 
 O Old Harmony representa não apenas uma plataforma de comércio eletrônico, mas também um espaço dedicado à preservação e celebração da música Black das décadas de 90 e 2000, proporcionando uma experiência única aos seus usuários.
+
+Acesse o link abaixo e veja o vídeo de apresentação de Old Harmony!
+https://youtu.be/sNZxu6t7_CE
